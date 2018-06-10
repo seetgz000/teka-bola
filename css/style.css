@@ -90,3 +90,7 @@
     position: absolute;
     top: 20%;
 }
+
+.l1t-container {
+    padding: 1rem 1rem 1rem 5rem;
+}
