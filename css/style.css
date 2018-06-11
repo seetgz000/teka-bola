@@ -1,3 +1,15 @@
+@font-face {
+    font-family: Memphis_ExtraBold;
+    src: url('../fonts/Memphis-ExtraBold.eot');
+    src: url('../fonts/Memphis-ExtraBold.woff2') format('woff2'), 
+            url('../fonts/Memphis-ExtraBold.woff') format('woff'), 
+            url('../fonts/Memphis-ExtraBold.ttf')  format('truetype')
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .prize-section {
     height: 100%;
     width: 100%;
@@ -21,18 +33,23 @@
     position: relative;
     z-index: 2;
     width: 60%;
+    max-height: 100%;
 }
 
 .prize1 {
     position: relative;
     z-index: 1;
     margin: -6% auto -4% auto;
+    width: 100%;
+    max-height: 100%;
 }
 
 .prize2, .prize3 {
     position: relative;
     z-index: 2;
     display: inline-block;
+    width: 100%;
+    max-height: 100%;
 }
 
 .logo-container {
@@ -51,11 +68,12 @@
     margin-left: -60%;
     z-index: 3;
     position: relative;
+    width: 100%;
+    max-height: 100%;
 }
 
 .form-section {
-    background-image: url(../images/Asset4.png);
-    background-size: cover;
+    background: radial-gradient(#cc2029, #7c1517);
     height: 100%;
     width: 100%;
     padding: 10%;
@@ -63,34 +81,38 @@
 }
 
 .langkah1 {
-    background-image: url(../images/Asset1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background: radial-gradient(#fff9c1, #ddc688);
+    border-radius: 25px;
     position: relative;
     width: 100%;
 }
 .langkah2 {
-    background-image: url(../images/Asset2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background: radial-gradient(#106bb1, #161c46);
+    border-radius: 25px;
     position: relative;
     width: 100%;
 }
 .langkah3 {
-    background-image: url(../images/Asset3.png);
-    background-size: contain;
+    background: radial-gradient(#fff9c1, #ddc688);
+    border-radius: 25px;
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
 }
 
 .langkah-label {
-    height: 50%;
-    max-width: 100%;
+    height: 7rem;
+    width: 7rem;
     position: absolute;
-    top: 20%;
+    top: 40%;
+    left: -3.5%
 }
 
 .l1t-container {
     padding: 1rem 1rem 1rem 5rem;
+}
+
+.langkah1-title {
+    font-family: Memphis_ExtraBold;
+    color: #002e6e;
 }
