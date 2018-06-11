@@ -153,6 +153,11 @@
 .langkah1_title {
     font-family: Memphis_ExtraBold;
     color: #002e6e;
+    font-size: 2rem;
+}
+
+.langkah1_small_title {
+    font-size: 1rem;
 }
 
 .langkah1 label {
